@@ -1,0 +1,80 @@
+html, body {
+ margin: 25px;
+ padding : 15px;
+
+ width:95%;
+}
+.row	{
+padding: 110px;
+}
+.header {
+ padding: 12px;
+}
+
+.header img {
+   display: inline-block;
+}
+
+.header h1 {
+   display: inline-block;
+}
+
+.main {
+
+ padding: 40px 0;
+}
+
+.main h1 {
+
+ font-size: 55px;
+ margin: 0 0 80px 0;
+ padding: 20px 0;
+   line-height: 60px;
+   width: 50%;
+}
+
+.main h2 {
+ background-color: c0d8d7 ;
+ color: #c0d8d7 ;
+ font-size: 20px;
+ margin: 0 0 40px 0;
+ padding: 20px 0;
+}
+
+
+.title,
+.date {
+ color: #444;
+ margin: 0;
+ font-size: 18px;
+   font-weight: 800;
+}
+
+.date {
+   color: #a3a3a3 ;
+   font-size: 14px;
+   font-weight: 200;
+}
+
+.price {
+ background-color: #3399ff ;
+ color: #white;
+ font-size: 18px;
+   border-radius: 50%;
+
+   font-weight: 200;
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   width: 80px;
+ position: absolute;
+ top: -40px;
+ right: 20px;
+}
+
+
+
+
+.footer img {
+   margin: 0 10px;
+}

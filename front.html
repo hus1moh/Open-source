@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    
+    
+    
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div class="header">
+	
+      <div class="container">
+        <h1>IT Portalen</h1> <h2><a href="postsandlinks.html" style=" left-margin:100px;">Posts and News </a>  <a href="chat.html"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chat </a> </h2>
+      </div>
+    </div>
+<div style="background-color: #c0d8d7; padding: -10px ">
+    <div class="main" ng-controller="MainController">
+      <div class="container">
+
+     
+
+        <div ng-repeat="product in products" class="col-md-6"> 
+  				<div class="thumbnail"> 
+    				<img ng-src="{{ product.cover }}"> 
+    				<p class="title">{{ product.name }}</p> 
+				    <p class="price">{{ product.price | currency }}</p> 
+				    <p class="date">{{ product.pubdate | date }}</p> 
+				    
+  				</div> 
+				</div>
+
+      </div>
+    </div>
+	
+
+	
+	
+	
+	
+	
+	
+
+   <script src="js/chat.js"></script>
+    <script src="js/app.js"></script>
+	
+    <script src="js/controllers/MainController.js"></script>
+	
+	
+	</div>
+	
+	
+		
+
+
+ </span>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </body>
+  
+  
+	
+	   <div class="footer">
+       <p>&nbsp;</p>
+<p>&nbsp;</p>		
+    </div>
+
+		    
+
+
+
+
+	
+  
+  
+  
+  
+  
+</html>
